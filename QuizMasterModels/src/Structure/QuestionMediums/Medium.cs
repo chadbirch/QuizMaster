@@ -1,6 +1,6 @@
 using System;
 
-namespace QuizMasterModels.QuestionMediums {
+namespace QuizMasterModels.Structure.QuestionMediums {
     public abstract class Medium {
         public string name { get; set; }
 

@@ -1,6 +1,6 @@
 using System;
 
-namespace QuizMasterModels.QuestionAnswers {
+namespace QuizMasterModels.Structure.QuestionAnswers {
     public enum AnswerOrder {
         Ordered, Any
     }

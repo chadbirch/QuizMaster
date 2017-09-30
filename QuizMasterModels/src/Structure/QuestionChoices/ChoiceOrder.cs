@@ -1,6 +1,6 @@
 using System;
 
-namespace QuizMasterModels.QuestionChoices {
+namespace QuizMasterModels.Structure.QuestionChoices {
     public enum ChoiceOrder {
         Ordered, Random
     }

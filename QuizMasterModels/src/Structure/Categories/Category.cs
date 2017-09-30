@@ -1,8 +1,8 @@
 using System;
-using QuizMasterModels.QuestionMediums;
-using QuizMasterModels.Questions;
+using QuizMasterModels.Structure.QuestionMediums;
+using QuizMasterModels.Structure.Questions;
 
-namespace QuizMasterModels.Categories {
+namespace QuizMasterModels.Structure.Categories {
     public class Category {
         public string categoryName { get; set; }
         public Question[] questions { get; set; }

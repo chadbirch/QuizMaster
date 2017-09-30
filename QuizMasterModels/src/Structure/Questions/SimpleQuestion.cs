@@ -1,8 +1,8 @@
 using System;
-using QuizMasterModels.QuestionChoices;
-using QuizMasterModels.QuestionAnswers;
+using QuizMasterModels.Structure.QuestionChoices;
+using QuizMasterModels.Structure.QuestionAnswers;
 
-namespace QuizMasterModels.Questions {
+namespace QuizMasterModels.Structure.Questions {
     public class SimpleQuestion : Question {
 
         public SimpleQuestion(string question, Answers answer) : base("Simple", question, answer) { }

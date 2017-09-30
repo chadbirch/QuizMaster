@@ -1,8 +1,8 @@
 using System;
-using QuizMasterModels.QuestionChoices;
-using QuizMasterModels.QuestionAnswers;
+using QuizMasterModels.Structure.QuestionChoices;
+using QuizMasterModels.Structure.QuestionAnswers;
 
-namespace QuizMasterModels.Questions {
+namespace QuizMasterModels.Structure.Questions {
     public abstract class Question {
         public string type { get; set; }
         public string question { get; set; }

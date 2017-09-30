@@ -1,7 +1,7 @@
 using System;
-using QuizMasterModels.QuestionMediums;
+using QuizMasterModels.Structure.QuestionMediums;
 
-namespace QuizMasterModels.QuestionAnswers {
+namespace QuizMasterModels.Structure.QuestionAnswers {
     public abstract class Answers {
         public Medium[] answers { get; set; }
         public AnswerOrder order { get; set; }
